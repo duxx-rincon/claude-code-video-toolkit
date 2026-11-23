@@ -1,0 +1,9 @@
+node_modules/
+work/frames/
+work/*/
+work/*.jpg
+out/
+.asr/
+audio/voice.wav
+audio/mix*.wav
+audio/music.wav
