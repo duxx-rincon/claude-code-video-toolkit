@@ -265,6 +265,13 @@ Between scenes, a hard-edged `wipe()` is the default for an act change. Judge a 
 Learned on Lugh's work (2026-11): a colour per scene read as noise ("not 100% sure about the different colors per
 scene"); three fields by act (brand orange, bone, near-black) made each turn in the story visible.
 
+## Martin's time travel series
+
+The owner of this fork makes a vertical 3D series about Martin, a time traveler. It lives in
+`projects/martin-time-travel/` (tracked on purpose, although `projects/` is ignored). For any episode,
+or whenever Martin, the portal or the time travel videos come up, read `projects/martin-time-travel/SERIES.md`
+first and build from that project's code, never from scratch.
+
 ## Toolkit vs Project Work
 
 **Toolkit work** (evolves the toolkit itself):
