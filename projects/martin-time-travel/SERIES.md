@@ -15,6 +15,22 @@ specific, this file wins, because it records what the owner asked for after watc
 5. Render, check, send the MP4. A change the owner asks for applies to that episode only, unless they say
    "always".
 
+## What stays the same and what changes
+
+**Always the same:** the concept (Martin, alone at home, gets pulled into a random moment in history by the
+portal and barely makes it back), Martin's look and outfit, the portal's design, the globe arrival, the
+fact box style, captions, the music levels, and the ending back home on his relief line.
+
+**Changes every episode:**
+- The trip, the script and all the audio. Martin's lines are new each time; the owner writes or approves
+  them. Never reuse episode 1's lines unless asked.
+- Where he is and what he is doing when the portal opens. It is a normal moment somewhere in his home:
+  eating chips on his bed, cooking in the kitchen, sitting on the toilet (keep that one cartoon and clean:
+  pants up, a newspaper or phone, the joke is the timing), brushing his teeth, and so on. The portal opens
+  wherever he is. Build the new spot as another part of the same home (same wallpaper and warm lamp style)
+  so it still reads as his place.
+- Where he lands when he comes back: anywhere in his home, often not where he left.
+
 ## Martin (never redesign him)
 
 - Built in `src/martin.js`. Same body, outfit and face in every episode. `reference/reference_frame.png` is
@@ -40,11 +56,13 @@ specific, this file wins, because it records what the owner asked for after watc
 
 ## How every episode starts
 
-1. **His room** (`buildRoom` in `src/sets.js`): olive striped wallpaper with dots, bookshelf, the SPACE
-   poster, the old computer with the blue screen, the red cup, bed with the blue blanket, red checkered
-   rug, hanging lamp with warm light, film grain and vignette. Top line: `TODAY · HIS ROOM`.
-2. He is doing something normal (episode 1: sitting on the bed eating chips; the owner picks the snack).
-3. The portal on the right: glowing ring, blue swirl, sparkles. Same design every time, also when it
+1. **Somewhere in his home.** Episode 1 used his bedroom (`buildRoom` in `src/sets.js`): olive striped
+   wallpaper with dots, bookshelf, the SPACE poster, the old computer with the blue screen, the red cup,
+   bed with the blue blanket, red checkered rug, hanging lamp with warm light, film grain and vignette.
+   Other episodes can start in the kitchen, the bathroom or anywhere else at home, built in the same
+   style. Top line: `TODAY · <WHERE HE IS>` (for example `TODAY · HIS KITCHEN`).
+2. He is doing something normal, different every episode (see above).
+3. The portal opens where he is: glowing ring, blue swirl, sparkles. Same design every time, also when it
    opens in the past for the escape.
 4. Pre portal line, he walks in, white flash and whoosh.
 5. Globe: Earth spins, flies to the region, the region lights up, a pin drops, the place name types on a
