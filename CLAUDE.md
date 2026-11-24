@@ -272,6 +272,12 @@ The owner of this fork makes a vertical 3D series about Martin, a time traveler.
 or whenever Martin, the portal or the time travel videos come up, read `projects/martin-time-travel/SERIES.md`
 first and build from that project's code, never from scratch.
 
+## Stick figure shorts (2D characters in a 3D world)
+
+The owner also makes shorts with flat 2D paper cut-out stick figures standing in a 3D game-engine world,
+sent shot by shot. The reusable setup lives in `projects/stickman-shorts/` (tracked on purpose). Read its
+`STYLE.md` first: it says how the owner works and that the graphics must look closer to their references.
+
 ## Toolkit vs Project Work
 
 **Toolkit work** (evolves the toolkit itself):
